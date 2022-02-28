@@ -7,3 +7,6 @@ a primeira alinhada a direita e a segunda alinhada a esquerda, com um vão de do
 entre elas.
 Aqui aprendi como funciona for-loop e também como aninhar dois ou mais for-loop para conseguir 
 formar o desenho requisitado.
+
+O programa mario-less é uma forma reduzida do problema onde deve-se imprimir apenas uma pirâmide alinhada
+a direita, permitindo para tal resolução o uso de apenas um for-loop.
