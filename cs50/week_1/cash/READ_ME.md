@@ -1,13 +1,11 @@
 # Week 1 Problem - Cash
 
-In this problem the user submit a value of change and the code had to 
-return the minimum coins necessary (between 0,25; 0,10; 0,05 and 0,01)
-to sum the change.
+Neste problema o programa deve retornar o mínimo de moedas necessárias 
+(entre 0,25 0,10 0,05 e 0,01) para formar o troco informado pelo usuário.
 
-For this after get the user submit change was rounded to int cents
-and a variable coins was created on value zero.
-
-Four while loops aws builted to subtract coin value of change and
-sum 1 to coins. 
-
-When change is reduced to zero a print is called to show coins value. 
+Aqui utilizo a conversão de valores monetários para centavos afim de evitar
+possíveis erros em operações com float. Uso também condições while para monitorar
+o valor do troco durante as subtrações (enquanto valor maior que 25 subtrai-se 25 do total,
+caso menor que 25 e maior que 10, subtrai-se 10 do total e assim por diante até o valor ser igual a zero)
+e sempre que uma subtração é feita o valor da variável moedas que inicia zero soma 1 e retorna impresso na tela
+como resultado final.
