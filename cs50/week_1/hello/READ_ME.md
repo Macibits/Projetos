@@ -1,3 +1,5 @@
 # Week 1 Problem - Hello
 
-In this problem I had to write a code in C to ask the user's name and answer with "Hello, user's name!"
+Este programa pergunta o nome do usuário e retorna Hello, 'resposta do usuário'.
+O primeiro problema do curso, onde começo aprender a usar a sintaxe da linguagem C,
+como uso de livrarias e print.
