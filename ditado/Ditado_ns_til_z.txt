@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />  
+  <meta name="description" content="prova estudo português" />
+  <meta name="keywords" content="ditado, prática" />
+  <meta name="author" content="André Maciel" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ditado da Clara</title>
+<style>
+  body{
+  background-color: rgb(169, 80, 220);
+  text-align: center;
+  }
+  h1{
+  color: white;
+  text-align: center
+  }
+  p{
+  color: white;
+  }
+</style>
+</head>
+
+<body>
+<h1>Ditado</h1>
+<br />
+
+<!-- Pão -->
+<p style="font-size:25px;">Palavra1</p>
+  <audio controls>
+   <source src="_audio/pao.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta1" name="resposta1" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction1()">Responder</button>
+
+  <p id="pao">&#10068</p>
+
+  <script>
+   function myFunction1() {
+    var pao = document.getElementById("resposta1").value.toLowerCase(); 
+    if (pao == "pão"){
+     document.getElementById("pao").innerHTML = "&#9989";
+    }else{document.getElementById("pao").innerHTML = "&#10060";}
+   }
+  </script>
+  
+<!-- excursão -->
+<p style="font-size:25px;">Palavra2</p>
+  <audio controls>
+   <source src="_audio/excursao.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta2" name="resposta2" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction2()">Responder</button>
+
+  <p id="excursao">&#10068</p>
+
+  <script>
+   function myFunction2() {
+    var excursao = document.getElementById("resposta2").value.toLowerCase(); 
+    if (excursao == "excursão"){
+     document.getElementById("excursao").innerHTML = "&#9989";
+    }else{document.getElementById("excursao").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- correção -->
+<p style="font-size:25px;">Palavra3</p>
+  <audio controls>
+   <source src="_audio/correcao.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta3" name="resposta3" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction3()">Responder</button>
+
+  <p id="correcao">&#10068</p>
+
+  <script>
+   function myFunction3() {
+    var correcao = document.getElementById("resposta3").value.toLowerCase(); 
+    if (correcao == "correção"){
+     document.getElementById("correcao").innerHTML = "&#9989";
+    }else{document.getElementById("correcao").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- xadrez -->
+<p style="font-size:25px;">Palavra4</p>
+  <audio controls>
+   <source src="_audio/xadrez.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta4" name="resposta4" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction4()">Responder</button>
+
+  <p id="xadrez">&#10068</p>
+
+  <script>
+   function myFunction4() {
+    var xadrez = document.getElementById("resposta4").value.toLowerCase(); 
+    if (xadrez == "xadrez"){
+     document.getElementById("xadrez").innerHTML = "&#9989";
+    }else{document.getElementById("xadrez").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- informações -->
+<p style="font-size:25px;">Palavra5</p>
+  <audio controls>
+   <source src="_audio/informacoes.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta5" name="resposta5" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction5()">Responder</button>
+
+  <p id="informacoes">&#10068</p>
+
+  <script>
+   function myFunction5() {
+    var informacoes = document.getElementById("resposta5").value.toLowerCase(); 
+    if (informacoes == "informações"){
+     document.getElementById("informacoes").innerHTML = "&#9989";
+    }else{document.getElementById("informacoes").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- cartaz -->
+<p style="font-size:25px;">Palavra6</p>
+  <audio controls>
+   <source src="_audio/cartaz.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta6" name="resposta6" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction6()">Responder</button>
+
+  <p id="cartaz">&#10068</p>
+
+  <script>
+   function myFunction6() {
+    var cartaz = document.getElementById("resposta6").value.toLowerCase(); 
+    if (cartaz == "cartaz"){
+     document.getElementById("cartaz").innerHTML = "&#9989";
+    }else{document.getElementById("cartaz").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- cicatriz -->
+<p style="font-size:25px;">Palavra7</p>
+  <audio controls>
+   <source src="_audio/cicatriz.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta7" name="resposta7" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction7()">Responder</button>
+
+  <p id="cicatriz">&#10068</p>
+
+  <script>
+   function myFunction7() {
+    var cicatriz = document.getElementById("resposta7").value.toLowerCase(); 
+    if (cicatriz == "cicatriz"){
+     document.getElementById("cicatriz").innerHTML = "&#9989";
+    }else{document.getElementById("cicatriz").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- campeão -->
+<p style="font-size:25px;">Palavra8</p>
+  <audio controls>
+   <source src="_audio/campeao.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta8" name="resposta8" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction8()">Responder</button>
+
+  <p id="campeao">&#10068</p>
+
+  <script>
+   function myFunction8() {
+    var campeao = document.getElementById("resposta8").value.toLowerCase(); 
+    if (campeao == "campeão"){
+     document.getElementById("campeao").innerHTML = "&#9989";
+    }else{document.getElementById("campeao").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- pensa -->
+<p style="font-size:25px;">Palavra9</p>
+  <audio controls>
+   <source src="_audio/pensa.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta9" name="resposta9" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction9()">Responder</button>
+
+  <p id="pensa">&#10068</p>
+
+  <script>
+   function myFunction9() {
+    var pensa = document.getElementById("resposta9").value.toLowerCase(); 
+    if (pensa == "pensa"){
+     document.getElementById("pensa").innerHTML = "&#9989";
+    }else{document.getElementById("pensa").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- pompons -->
+<p style="font-size:25px;">Palavra10</p>
+  <audio controls>
+   <source src="_audio/pompons.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta10" name="resposta10" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction10()">Responder</button>
+
+  <p id="pompons">&#10068</p>
+
+  <script>
+   function myFunction10() {
+    var pompons = document.getElementById("resposta10").value.toLowerCase(); 
+    if (pompons == "pompons"){
+     document.getElementById("pompons").innerHTML = "&#9989";
+    }else{document.getElementById("pompons").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- aceso -->
+<p style="font-size:25px;">Palavra11</p>
+  <audio controls>
+   <source src="_audio/aceso.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta11" name="resposta11" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction11()">Responder</button>
+
+  <p id="aceso">&#10068</p>
+
+  <script>
+   function myFunction11() {
+    var aceso = document.getElementById("resposta11").value.toLowerCase(); 
+    if (aceso == "aceso"){
+     document.getElementById("aceso").innerHTML = "&#9989";
+    }else{document.getElementById("aceso").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- televisão -->
+<p style="font-size:25px;">Palavra12</p>
+  <audio controls>
+   <source src="_audio/televisao.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta12" name="resposta12" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction12()">Responder</button>
+
+  <p id="televisao">&#10068</p>
+
+  <script>
+   function myFunction12() {
+    var televisao = document.getElementById("resposta12").value.toLowerCase(); 
+    if (televisao == "televisão"){
+     document.getElementById("televisao").innerHTML = "&#9989";
+    }else{document.getElementById("televisao").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- jardins -->
+<p style="font-size:25px;">Palavra13</p>
+  <audio controls>
+   <source src="_audio/jardins.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta13" name="resposta13" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction13()">Responder</button>
+
+  <p id="jardins">&#10068</p>
+
+  <script>
+   function myFunction13() {
+    var jardins = document.getElementById("resposta13").value.toLowerCase(); 
+    if (jardins == "jardins"){
+     document.getElementById("jardins").innerHTML = "&#9989";
+    }else{document.getElementById("jardins").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- alguns -->
+<p style="font-size:25px;">Palavra14</p>
+  <audio controls>
+   <source src="_audio/alguns.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta14" name="resposta14" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction14()">Responder</button>
+
+  <p id="alguns">&#10068</p>
+
+  <script>
+   function myFunction14() {
+    var alguns = document.getElementById("resposta14").value.toLowerCase(); 
+    if (alguns == "alguns"){
+     document.getElementById("alguns").innerHTML = "&#9989";
+    }else{document.getElementById("alguns").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- transparente -->
+<p style="font-size:25px;">Palavra15</p>
+  <audio controls>
+   <source src="_audio/transparente.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta15" name="resposta15" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction15()">Responder</button>
+
+  <p id="transparente">&#10068</p>
+
+  <script>
+   function myFunction15() {
+    var transparente = document.getElementById("resposta15").value.toLowerCase(); 
+    if (transparente == "transparente"){
+     document.getElementById("transparente").innerHTML = "&#9989";
+    }else{document.getElementById("transparente").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- avestruz -->
+<p style="font-size:25px;">Palavra16</p>
+  <audio controls>
+   <source src="_audio/avestruz.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta16" name="resposta16" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction16()">Responder</button>
+
+  <p id="avestruz">&#10068</p>
+
+  <script>
+   function myFunction16() {
+    var avestruz = document.getElementById("resposta16").value.toLowerCase(); 
+    if (avestruz == "avestruz"){
+     document.getElementById("avestruz").innerHTML = "&#9989";
+    }else{document.getElementById("avestruz").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- arroz -->
+<p style="font-size:25px;">Palavra17</p>
+  <audio controls>
+   <source src="_audio/arroz.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta17" name="resposta17" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction17()">Responder</button>
+
+  <p id="arroz">&#10068</p>
+
+  <script>
+   function myFunction17() {
+    var arroz = document.getElementById("resposta17").value.toLowerCase(); 
+    if (arroz == "arroz"){
+     document.getElementById("arroz").innerHTML = "&#9989";
+    }else{document.getElementById("arroz").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- mamae -->
+<p style="font-size:25px;">Palavra18</p>
+  <audio controls>
+   <source src="_audio/mamae.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta18" name="resposta18" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction18()">Responder</button>
+
+  <p id="mamae">&#10068</p>
+
+  <script>
+   function myFunction18() {
+    var mamae = document.getElementById("resposta18").value.toLowerCase(); 
+    if (mamae == "mamãe"){
+     document.getElementById("mamae").innerHTML = "&#9989";
+    }else{document.getElementById("mamae").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- manha -->
+<p style="font-size:25px;">Palavra19</p>
+  <audio controls>
+   <source src="_audio/manha.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta19" name="resposta19" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction19()">Responder</button>
+
+  <p id="manha">&#10068</p>
+
+  <script>
+   function myFunction19() {
+    var manha = document.getElementById("resposta19").value.toLowerCase(); 
+    if (manha == "manhã"){
+     document.getElementById("manha").innerHTML = "&#9989";
+    }else{document.getElementById("manha").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- alemaes -->
+<p style="font-size:25px;">Palavra20</p>
+  <audio controls>
+   <source src="_audio/alemaes.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta20" name="resposta20" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction20()">Responder</button>
+
+  <p id="alemaes">&#10068</p>
+
+  <script>
+   function myFunction20() {
+    var alemaes = document.getElementById("resposta20").value.toLowerCase(); 
+    if (alemaes == "alemães"){
+     document.getElementById("alemaes").innerHTML = "&#9989";
+    }else{document.getElementById("alemaes").innerHTML = "&#10060";}
+   }
+  </script>
+
+<!-- cidadãos -->
+<p style="font-size:25px;">Palavra21</p>
+  <audio controls>
+   <source src="_audio/cidadaos.mp3" type="audio/mpeg" />
+  </audio>
+  <br />
+
+  <input type="text" id="resposta21" name="resposta21" float="left" autocomplete="off" />
+  <br />
+
+  <button onclick="myFunction21()">Responder</button>
+
+  <p id="cidadaos">&#10068</p>
+
+  <script>
+   function myFunction21() {
+    var cidadaos = document.getElementById("resposta21").value.toLowerCase(); 
+    if (cidadaos == "cidadãos"){
+     document.getElementById("cidadaos").innerHTML = "&#9989";
+    }else{document.getElementById("cidadaos").innerHTML = "&#10060";}
+   }
+  </script>
+
+</body>
